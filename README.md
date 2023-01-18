@@ -25,7 +25,37 @@ This is a sample of a mathematical operation in the package:
 ```public int Addition(int a, int b)
         {
             return a + b;
-        } ```     
+        } ```
+        
 Each method takes in two (2) parameters of type int and returns a value of type int too.
 
-## Demonstration
+
+### Demonstration
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int a = 10;
+        int b = 20;
+        Calculate cal = new();
+
+        var result = cal.Addition(a, b);
+        Console.WriteLine(result);
+        
+        var Sub = cal.Subtraction(a, b);
+        Console.WriteLine(Sub);
+
+        var Mul = cal.Multiplication(a, b);
+        Console.WriteLine(Mul);
+
+        var Div = cal.Division(a, b);
+        Console.WriteLine(Div);
+
+        var Mod = cal.Modulus(a, b);
+        Console.WriteLine(Mod);
+
+       
+
+        Console.ReadKey();
+    }
