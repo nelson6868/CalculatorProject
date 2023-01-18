@@ -5,20 +5,20 @@ is a class library for simple mathematical operations.
 Install Visual Studio 2022 for Windows with a .NET Core-related workload.
 You can install the 2022 Community edition for free from visualstudio.microsoft.com, or use the Professional or Enterprise edition.
 ## Prerequisites
-An understanding of C# and NuGet Packages
-Visual Studio
+1. An understanding of C# and NuGet Packages
+2. Visual Studio
 ## Usage
 You can install this NuGet package into any .NET project if that package supports the same target framework as the project. To use CalculatorProject in your project, kindly follow these steps:
 
-Installation using Visual Studio
-In the Solutions Explorer of your project, Right-click on project dependencies
+#### Installation using Visual Studio
+1.In the Solutions Explorer of your project, Right-click on project dependencies
 
-Select manage Nuget packages
+2. Select manage Nuget packages
 
-From the Browse tab, search for SmartCalc, select it in the list, and then select Install.
+3. From the Browse tab, search for SmartCalc, select it in the list, and then select Install.
 
-To install our package using the .NET CLI, run: dotnet add package CalculatorProject --version 1.0.1
-In your project, simply instantiate the operations class before usage.
+### To install our package using the .NET CLI, run: dotnet add package CalculatorProject --version 1.0.1
+4. In your project, simply instantiate the operations class before usage.
 Sample
 This is a sample of a mathematical operation in the package:
 
