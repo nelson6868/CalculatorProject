@@ -28,7 +28,9 @@ This is a sample of a mathematical operation in the package:
         } ```     
 Each method takes in two (2) parameters of type int and returns a value of type int too.
 
-## Demonstration
+
+### Demonstration
+
 class Program
 {
     static void Main(string[] args)
