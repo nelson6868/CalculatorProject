@@ -1,12 +1,13 @@
-# CalculatorProject:is a class library for simple mathematical operations.
+# CalculatorProject:
+is a class library for simple mathematical operations.
 
-##Installation
+## Installation
 Install Visual Studio 2022 for Windows with a .NET Core-related workload.
 You can install the 2022 Community edition for free from visualstudio.microsoft.com, or use the Professional or Enterprise edition.
-##Prerequisites
+## Prerequisites
 An understanding of C# and NuGet Packages
 Visual Studio
-##Usage
+## Usage
 You can install this NuGet package into any .NET project if that package supports the same target framework as the project. To use CalculatorProject in your project, kindly follow these steps:
 
 Installation using Visual Studio
@@ -27,4 +28,4 @@ This is a sample of a mathematical operation in the package:
         } ```     
 Each method takes in two (2) parameters of type int and returns a value of type int too.
 
-##Demonstration
+## Demonstration
