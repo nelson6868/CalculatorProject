@@ -5,7 +5,21 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/nelson6868/CalculatorProject</RepositoryUrl>
+    <PackAsTool>True</PackAsTool>
+    <ToolCommandName>CalculatorSolution</ToolCommandName>
+    <Product>CalculatorSolution</Product>
+    <Company>Bezao</Company>
+    <Authors>Nelson</Authors>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CalculatorProject\CalculatorProject.csproj" />
