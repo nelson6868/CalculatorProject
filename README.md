@@ -25,7 +25,8 @@ This is a sample of a mathematical operation in the package:
 ```public int Addition(int a, int b)
         {
             return a + b;
-        } ```     
+        } ```
+        
 Each method takes in two (2) parameters of type int and returns a value of type int too.
 
 
